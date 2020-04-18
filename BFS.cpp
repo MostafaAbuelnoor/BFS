@@ -1,4 +1,4 @@
-// This is a C++ project from a design and algorithms class exploring the BFS(Breadth first search) traversal and how to apply it
+// This is a C++ project from a design and algorithms class (CMP 340 in AUS) exploring the BFS(Breadth first search) traversal and how to apply it
 // Mostafa Abuelnoor
 
 #include <iostream>
@@ -102,7 +102,7 @@ void bfs(int **adjMat, int s, int size)
             col = "GRAY";
         else if (color[i] == 2)
             col = "BLACK";
-        cout << "Vertex " << i << " color = " << col << "; parent = " << parent[i] << "; Distance from source = " << dist[i] << endl;
+        cout << "Vertex " << i << ": color = " << col << "; parent = " << parent[i] << "; Distance from source = " << dist[i] << endl;
     }
 }
 
